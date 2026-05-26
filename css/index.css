@@ -1,0 +1,103 @@
+
+/*-------------- All Pages ----------------*/
+body {
+    margin: 0;
+    background-color: #1f1a16;
+    color: #f3eadb;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+header {
+    background-color: #2b211a;
+    padding: 30px;
+    border-bottom: 2px solid #b89b5e;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color: #f5e6c8;
+}
+
+h2 {
+    color: #d6b56d;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #d6b56d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgba(43, 33,36, 0.85);
+    border: 1px solid #7c6338;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18 px;
+}
+
+p, li {
+    max-width: 750px;
+    line-height: 1.7;
+}
+
+.quote {
+    font-style: italic;
+    color: #d6b56d;
+    border-left: 3px solid #b89b5e;
+    padding-left: 15px;
+    margin-top: 30px
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+/*--------------------- Home Page --------------------------------*/
+
+img {
+    max-width: 250px;
+    border: 3px solid #b89b5e;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+}
+
+/*--------------------- resume/workSample/digHistoricalPro Pages --------------------------------*/
+
+iframe, embed{
+    display: block;
+    width: 100%;
+    height: 700px;
+    border: 1px solid #ccc;
+}
+
+.pdf-section {
+    width: 90%;
+    margin: 30px auto;
+}
